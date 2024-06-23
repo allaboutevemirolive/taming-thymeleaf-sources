@@ -39,9 +39,9 @@ public class TamingThymeleafApplicationConfiguration {
     }
 
     // tag::passwordEncoder[]
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return PasswordEncoderFactories.createDelegatingPasswordEncoder();
-    }
+    // @Bean
+    // public PasswordEncoder passwordEncoder() {
+    //     return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    // }
     // end::passwordEncoder[]
 }
